@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign up for pet daycare</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="doggy">
+        <div class="odinBackground">
+          <img class="odin" src="Pictures/odin-lined.png"/>
+          <p class="odinText">ODIN</p>
+        </div>
+      </section>
+      <section class="formContent">
+        <form class="signUp">
+          <div class="inputContent">
+            <div class="registrationText">
+              This is a demo registration page! You know you need something like
+              this in your life to help you realize your deepest dreams. Sign up
+              now to get started. You know you want to.
+            </div>
+            <p class="actionMessage">Sign up now!</p>
+            <fieldset>
+              <div class="cellStyling">
+                <label for="firstName">First Name</label>
+                <input id="firstName" , name="firstName" , type="text" />
+              </div>
+              <div class="cellStyling">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" , name="lastName" , type="text" />
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="cellStyling">
+                <label for="emailAddress">Email Address</label>
+                <input id="emailAddress" , name="emailAddress" , type="email" />
+              </div>
+              <div class="cellStyling">
+                <label for="phoneNumber">Phone Number</label>
+                <input id="phoneNumber" , name="phoneNumber" , type="tel" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="cellStyling">
+                <label for="password">Password</label>
+                <input id="password" , name="password" , type="password" />
+                <span class="messageSpan"></span>
+              </div>
+              <div class="cellStyling">
+                <label for="confirmPassword">Repeat Password</label>
+                <input
+                  id="confirmPassword"
+                  ,
+                  name="confirmPassword"
+                  ,
+                  type="password"
+                />
+              </div>
+            </fieldset>
+          </div>
+          <input type="submit" name="signUpForm" value="Create Account" />
+        </form>
+      </section>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
